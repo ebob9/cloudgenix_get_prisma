@@ -42,7 +42,6 @@ Can also use `--csv-output-file` command line switch to save output as CSV.
 Full options available when run with `--help`.
 
 #### Version
-Version | Changes
-------- | --------
-
+Version  | Changes
+-------  | --------
 **1.0.0**| Initial Release.
