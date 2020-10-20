@@ -44,4 +44,5 @@ Full options available when run with `--help`.
 #### Version
 Version  | Changes
 -------  | --------
-**1.0.0**| Initial Release.
+**1.0.1**| Marked Statuses "Unknwon_Offline" that are stale when devices are offline.
+**1.0.1**| Initial Release.
