@@ -88,8 +88,8 @@ def servicelinks(sdk=None, idname_obj=None, controller="https://api.elcapitan.cl
         resp = sdk.get.interfaces_status(site_id, element_id, interface_id)
         if not element_connected:
             # if element is not connected, status is stale.
-            operational_state = "Unknown (Offline)"
-            extended_state = "Unknown (Offline)"
+            operational_state = "Unknown_Offline"
+            extended_state = "Unknown_Offline"
         elif resp.cgx_status:
             operational_state = resp.cgx_content.get("operational_state")
             extended_state = resp.cgx_content.get("extended_state")
