@@ -44,5 +44,6 @@ Full options available when run with `--help`.
 #### Version
 Version  | Changes
 -------  | --------
+**1.0.3**| Added ability to specify PRISMA_API_KEY via cmdline or ENV_VAR and return tunnel endpoints.
 **1.0.2**| Marked Statuses "Unknwon_Offline" that are stale when devices are offline.
 **1.0.1**| Initial Release.

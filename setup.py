@@ -4,7 +4,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(name='cloudgenix_get_prisma',
-      version='1.0.2',
+      version='1.0.3',
       description='Utility to print or export all CloudGenix ServiceLinks to Prisma.',
       long_description=long_description,
       long_description_content_type='text/markdown',
@@ -14,7 +14,7 @@ setup(name='cloudgenix_get_prisma',
       license='MIT',
       install_requires=[
             'cloudgenix >= 5.4.1b2',
-            'cloudgenix_idname >= 2.0.1',
+            'cloudgenix_idname >= 2.0.2',
             'tabulate >= 0.8.7'
       ],
       packages=['cloudgenix_get_prisma'],
